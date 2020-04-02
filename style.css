@@ -5,8 +5,13 @@ body{
   /* background-image */
   /* background-image: url("https://i.pinimg.com/originals/04/72/25/0472255b33f3a74add72859f5416a0a0.png"); */
   /* background-color: rgb(0,207,211); */
-  background-color: rgb(22,26,63);
+  background-color: rgb(9,67,89);
   /* opacity: 0.2; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Audiowide', cursive;
 }
 
 .wrapper{
@@ -31,8 +36,6 @@ body{
   box-shadow: -10px 12px 28px 1px rgba(66,19,11,0.42);
 }
 
-
-
 .defaultColor{
   background-color: rgb(242,169,5);
 }
@@ -52,4 +55,15 @@ body{
 .codeBlock:hover {
   border: 5px solid rgb(22,26,63);
   cursor: pointer;
+}
+
+summary {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 25px;
+}
+
+details p {
+  margin-left: 25px;
 }

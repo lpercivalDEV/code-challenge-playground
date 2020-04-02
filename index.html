@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Code Challenge Playground</title>
   </head>
@@ -17,20 +18,30 @@
           <section>
             <span class="result">Result: </span>
           </section>
-          <p>
-            Explanation: Using the following methods _______ ________ ________, the string is reversed and displayed.
-          </p>
+          <details closed>
+            <summary>
+              Explanation
+            </summary>
+            <p>
+               Using the following methods _______ ________ ________, the string is reversed and displayed.
+            </p>
+          </details>
         </section>
-        <section class="codeBlock reverseStr altColorBlue">
-          <h3>Reverse a string</h3>
-          <input placeholder="Enter a word to reverse it" type="text" name="" id="reverseInput">
-          <button id="reverse" type="button" name="button">Reverse</button>
+        <section class="codeBlock fizzBuzz altColorBlue">
+          <h3>Fizz Buzz</h3>
+          <input placeholder="Enter a number less than 300 to use" type="text" name="" id="fizzInput">
+          <button id="fizzEnter" type="button" name="button">Submit</button>
           <section>
-            <span class="result">Result: </span>
+            <span class="readOut"></span>
           </section>
-          <p>
-            Explanation: Using the following methods _______ ________ ________, the string is reversed and displayed.
-          </p>
+          <details closed>
+            <summary>Explanation</summary>
+            <p>
+               FizzBuzz is a common puzzle where a person is tasked with printing out numbers (usually 1-100). For every number divisable by 3 (example: 9), she should print out "Fizz" instead of the number. If a number is divisible by 5 (example: 10), she should print out "Buzz" instead of the number. And if a number is divisible by both 3 and 5, (example: 15), "FizzBuzz" should be printed.
+            </p>
+            <p>Using the following methods _______ ________ ________, the correct items are printed out according to the conditions.
+            </p>
+          </details>
         </section>
         <section class="codeBlock reverseStr altColorPurple">
           <h3>Reverse a string</h3>
@@ -39,9 +50,6 @@
           <section>
             <span class="result">Result: </span>
           </section>
-          <p>
-            Explanation: Using the following methods _______ ________ ________, the string is reversed and displayed.
-          </p>
         </section>
         <section class="codeBlock reverseStr altColorPink">
           <h3>Reverse a string</h3>
