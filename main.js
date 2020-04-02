@@ -1,4 +1,8 @@
 
+
+
+// CODE FOR REVERSING A STRING
+
 let submit = document.getElementById("reverse");
 
 let text = document.getElementById("reverseInput");
@@ -17,7 +21,8 @@ function reverseWord(text){
   let flip =  hold.split("").reverse("").join("");
   // flip.split("").reverse().join();
   result.innerHTML = flip;
-
-
-
 }
+
+
+
+// CODE FOR FIZZ BUZZ
