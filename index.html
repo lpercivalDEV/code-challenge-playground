@@ -51,15 +51,31 @@
             <span class="result">Result: </span>
           </section>
         </section>
-        <section class="codeBlock reverseStr altColorPink">
-          <h3>Reverse a string</h3>
-          <input placeholder="Enter a word to reverse it" type="text" name="" id="reverseInput">
-          <button id="reverse" type="button" name="button">Reverse</button>
+        <section class="codeBlock sumMultiples altColorPink">
+          <h3>Multiples of 3 and 5</h3>
+          <p>
+            If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+            Find the sum of all the multiples of 3 or 5 below 1000.
+          </p>
+          <a href="https://projecteuler.net/problem=1">Project Euler Problem 1</a>
           <section>
+            <code>
+                const calcSum = () => {
+                    let count = 0;
+                    for(let i=0; i<1000; i++) {
+                      if(i%3 === 0 || i%5 === 0) {
+                        count += i;
+                      }
+                  }
+                   console.log("The sum for multiples of 3 and 5 below 1000 is = " + count);
+                };
+
+                calcSum();
+            </code>
             <span class="result">Result: </span>
           </section>
           <p>
-            Explanation: Using the following methods _______ ________ ________, the string is reversed and displayed.
+            Explanation: Using the following methods _______ ________ ________, the multiples are determined and then added up for the final value.
           </p>
         </section>
         <section class="codeBlock reverseStr defaultColor">
